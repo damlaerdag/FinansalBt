@@ -45,7 +45,7 @@ public class Login extends AppCompatActivity {
         ab.setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar_background));
         ab.setDisplayHomeAsUpEnabled(true);
 
-        autoLogin = this.getSharedPreferences("com.example.barbaros.myapplication", Context.MODE_PRIVATE);
+        autoLogin = this.getSharedPreferences("com.example.apple.myapplication", Context.MODE_PRIVATE);
 
         m_email = (EditText) findViewById(R.id.mEt_email);
         m_password = (EditText) findViewById(R.id.mEt_password);

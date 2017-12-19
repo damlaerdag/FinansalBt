@@ -42,7 +42,7 @@ public class SignUp extends AppCompatActivity {
         ab.setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar_background));
         ab.setDisplayHomeAsUpEnabled(true);
 
-        login=this.getSharedPreferences("com.example.barbaros.myapplication", Context.MODE_PRIVATE);
+        login=this.getSharedPreferences("com.example.apple.myapplication", Context.MODE_PRIVATE);
 
         mEt_regEmail = (EditText) findViewById(R.id.mEt_regEmail);
         mEt_regUsername = (EditText) findViewById(R.id.mEt_regUsername);

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ActionBar ab= getSupportActionBar();
         ab.setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar_background));
 
-        logout=this.getSharedPreferences("com.example.barbaros.myapplication", Context.MODE_PRIVATE);
+        logout=this.getSharedPreferences("com.example.apple.myapplication", Context.MODE_PRIVATE);
 
         btn_arkekle=(Button) findViewById(R.id.button_onlineSozluk);
         btn_sozluk=(Button) findViewById(R.id.button_sozluk);

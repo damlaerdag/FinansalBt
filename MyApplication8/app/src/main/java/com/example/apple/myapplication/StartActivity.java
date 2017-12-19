@@ -42,7 +42,7 @@ public class StartActivity extends AppCompatActivity {
         ActionBar ab= getSupportActionBar();
         ab.hide();
 
-        autoLogin = this.getSharedPreferences("com.example.barbaros.myapplication", Context.MODE_PRIVATE);
+        autoLogin = this.getSharedPreferences("com.example.apple.myapplication", Context.MODE_PRIVATE);
 
 
         mAuth= FirebaseAuth.getInstance();

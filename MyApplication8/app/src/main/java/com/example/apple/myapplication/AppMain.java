@@ -51,7 +51,7 @@ public class AppMain extends AppCompatActivity {
         wordIndex=0;
         currentUsername=null;
 
-        logout=this.getSharedPreferences("com.example.barbaros.myapplication", Context.MODE_PRIVATE);
+        logout=this.getSharedPreferences("com.example.apple.myapplication", Context.MODE_PRIVATE);
 
         word=new ArrayList<String>();
         username=new ArrayList<String>();
